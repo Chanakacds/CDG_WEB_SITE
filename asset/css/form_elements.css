@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+form{ 
+	margin:0 auto; 
+	display:block;
+}
+
+select, input[type=text] {
+	font-size:inherit;
+	padding:7px;
+	border-radius:5px;
+	color:inherit;
+	display:block;
+	width:100%;
+	border:#CCC 1px solid;
+}
+
+form > div {
+	padding:5px;
+}
+	
+button
+{
+	font-size:inherit;
+	padding:7px;
+	border-radius:5px;
+	color:#fff;
+	border:1px solid #007DFB;
+	background:#007DFB;
+	width:100%;
+	cursor:pointer;
+}
+
+button:hover
+{
+	background:#1AB5FF;
+	border:1px solid #007DFB;
+}
+
+button:active
+{
+	background:#007DFB;
+}
+
+
+
+

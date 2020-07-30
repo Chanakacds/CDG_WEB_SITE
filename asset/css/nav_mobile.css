@@ -1,0 +1,28 @@
+@charset "utf-8";
+nav ul {
+    line-height: 48px;
+    -webkit-transition: max-height .4s;
+    -ms-transition: max-height .4s;
+    -moz-transition: max-height .4s;
+    -o-transition: max-height .4s;
+    transition: max-height .4s;
+    max-height: 0
+}
+
+nav ul li {
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px #666 solid;
+    padding-left: 10px
+}
+
+.handle {
+    display: block;
+    text-align: left;
+    margin: 0;
+    line-height: 45px
+}
+
+.show_menu {
+    max-height: 20em
+}

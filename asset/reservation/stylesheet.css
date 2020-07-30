@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.form {
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #666 !important; /* old IE */
+  background-color: #666 !important; /* Modern Browsers */
+}
+
+.title {
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #ec5526 !important;
+}
+
+.titletopspace {
+  margin-top: 20px;
+}
+
+#res-container {
+  max-width: 100%;
+
+  height: auto;
+
+  margin: 0 0 0 0;
+
+  border: 1px #999 solid;
+
+  border-radius: 10px;
+
+  padding: 10px;
+
+  background: #efefef;
+
+  background-size: auto 100%;
+}
+
+button,
+input[type='radio'],
+input,
+select,
+textarea {
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 300;
+
+  color: #666;
+
+  border-radius: 4px;
+
+  height: 30px;
+
+  padding: 0 5px 0 5px;
+
+  width: 100%;
+
+  font-size: 1.1em;
+
+  border: #d3d3d3 1px solid;
+
+  -webkit-box-sizing: border-box;
+
+  -moz-box-sizing: border-box;
+
+  box-sizing: border-box;
+}
+
+#phase2,
+#j2 {
+  display: none;
+}
+
+/* .twoobjects {
+} */
+
+.processbuttons {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbc63c+36,fba500+100 */
+
+  background: #796bc2; /* Old browsers */
+  border: 1px #796bc2 solid;
+  color: #fff;
+  line-height: 25px;
+  cursor: pointer;
+
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+/*Journey1*/
+
+#j1pickupaddress,
+#j1pickupaddresstext,
+#j1flightdetails,
+#j1flightno,
+#j1flightnotext,
+#j1origin,
+#j1origintext,
+#j1dropaddress,
+#j1dropaddresstext,
+#j1pickupaddress_error,
+#j1dropaddress_error {
+  display: none;
+}
+
+/*Journey2*/
+
+#j2pickupaddress,
+#j2pickupaddresstext,
+#j2flightdetails,
+#j2flightno,
+#j2flightnotext,
+#j2origin,
+#j2origintext,
+#j2dropaddress,
+#j2dropaddresstext,
+#j2pickupaddress_error,
+#j2dropaddress_error {
+  display: none;
+}
+
+/*validation*/
+
+.error {
+  float: left;
+  margin-left: 10px;
+  color: #f00 !important;
+  font-weight: 500;
+}
+
+.inline {
+  float: left;
+  color: #333 !important;
+}
+
+.break {
+  width: 100%;
+  height: 0px;
+  border: 0;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#invoice {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px #999 solid;
+}
+
+form p {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.calendar_icon {
+  background-image: url(../images/icon/calendar.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.clock_icon {
+  background-image: url(../images/icon/clock-icon.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}

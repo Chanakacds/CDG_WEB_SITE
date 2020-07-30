@@ -1,0 +1,163 @@
+@charset "utf-8";
+#logo,
+#paylater {
+    text-align: center
+}
+
+#slider {}
+
+#quick_calculator {
+    width: 230px;
+}
+
+#qc_result,
+.frontbox {
+    width: 100%
+}
+
+.book_now_button {
+    margin-bottom: 10px;
+}
+
+.margin-right {
+    margin-right: 20px
+}
+
+#logo,
+.frontbox {
+    margin-right: auto
+}
+
+#nav {
+    display: none;
+}
+
+#logo {
+    clear: left;
+    margin-left: 10px
+}
+
+#telephone,
+.btn_orange {
+    font-size: 1.1em;
+}
+
+h1,
+h2 {
+    font-size: 1.3em;
+}
+
+#top-header {
+    height: 40px;
+    line-height: 40px;
+    background: #A31621
+}
+
+#contactus,
+#footer,
+#maintext,
+#reservaation_text {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.frontbox {
+    clear: both;
+    margin-left: auto;
+    min-width: 250px;
+    border-radius: 15px;
+    min-height: auto;
+    padding-top: 25px;
+    margin-top: 10px
+}
+
+#qc_from,
+#qc_passengers,
+#qc_to {
+    float: none;
+    width: auto;
+    width: 100%
+}
+
+#quick-calc {
+    height: auto
+}
+
+h1 {
+    font-weight: 300px
+}
+
+h2 {
+    font-weight: 400;
+    color: #fd690d;
+    line-height: 1.3em;
+}
+
+h3 {
+    margin-top: 12px;
+}
+
+.rate_4 {
+    display: none;
+}
+
+.icon-wrapper .custom-icon {
+    display: none;
+}
+
+.icon_box {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0px 5px 5px 5px;
+    clear: both;
+    height: 330px;
+    width: 85%;
+}
+
+.icon_box h3 {
+    color: #000;
+}
+
+nav ul {
+    line-height: 48px;
+    -webkit-transition: max-height .4s;
+    -ms-transition: max-height .4s;
+    -moz-transition: max-height .4s;
+    -o-transition: max-height .4s;
+    transition: max-height .4s;
+    max-height: 0
+}
+
+nav ul li {
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px #666 solid;
+    padding-left: 10px
+}
+
+.handle {
+    display: block;
+    text-align: left;
+    margin: 0;
+    line-height: 45px
+}
+
+.show_menu {
+    max-height: 20em
+}
+
+.box_1 {
+    max-width: 271px;
+}
+
+.box_2 {
+    max-width: 271px;
+}
+
+.box_3 {
+    max-width: 271px;
+}
+
+.box_4 {
+    max-width: 271px;
+}
